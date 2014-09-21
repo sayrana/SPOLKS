@@ -37,7 +37,7 @@ int __cdecl main(void)
 		return 1;
 	}
 
-	ZeroMemory(&hints, sizeof(hints));
+    ZeroMemory(&hints, sizeof(hints));
 	hints.ai_family = AF_INET;
 	hints.ai_socktype = SOCK_STREAM;
 	hints.ai_protocol = IPPROTO_TCP;
